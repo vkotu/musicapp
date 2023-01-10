@@ -1,7 +1,6 @@
 import { Box, Flex, Input, Button } from '@chakra-ui/react'
 import { useRouter } from 'next/router'
 import { FC, useState } from 'react'
-import { useSWRConfig } from 'swr'
 import NextImage from 'next/image'
 import { auth } from '../lib/mutations'
 
@@ -28,7 +27,7 @@ const AuthForm: FC<{ mode: 'signin' | 'signup' }> = ({ mode }) => {
         height="100px"
         borderBottom="white 1px solid"
       >
-        <NextImage src="/logo.svg" height={60} width={120} />
+        <NextImage alt="logo" src="/logo.svg" height={60} width={120} />
       </Flex>
       <Flex justify="center" align="center" height="calc(100vh - 100px)">
         <Box padding="50px" bg="gray.900" borderRadius="6px">

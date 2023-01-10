@@ -1,6 +1,5 @@
 import { Box, Text, Flex } from '@chakra-ui/layout'
-import { Skeleton, SkeletonCircle, SkeletonText } from '@chakra-ui/react'
-import { Image } from '@chakra-ui/react'
+import { Image, Skeleton } from '@chakra-ui/react'
 import GradientLayout from '../components/gradientLayout'
 import { useMe } from '../lib/hooks'
 import prisma from '../lib/prisma'

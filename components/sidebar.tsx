@@ -6,7 +6,6 @@ import {
   ListItem,
   ListIcon,
   Divider,
-  Center,
   LinkBox,
 } from '@chakra-ui/layout'
 import {
@@ -63,7 +62,7 @@ const Sidebar = () => {
     >
       <Box paddingY="20px" height="100%">
         <Box width="120px" marginBottom="20px" paddingX="20px">
-          <NextImage alt="image" src="/logo.svg" height={60} width={120} />
+          <NextImage alt="logo" src="/logo.svg" height={60} width={120} />
         </Box>
         <Box marginBottom="20px">
           <List spacing={2}>
